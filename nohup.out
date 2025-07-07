@@ -1,0 +1,20 @@
+Using device: cuda:1
+Subsampling split 'train' (size: 829567) by 100.00%...
+Subsampling split 'validation' (size: 331826) by 100.00%...
+Subsampling split 'test' (size: 497741) by 100.00%...
+Classi uniche: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+Numero classi: 16
+Pesi per classe: tensor([  6.3786,  22.7227,  65.9623,  92.1378, 161.4319,  26.5622,  25.3951,
+         86.8162, 103.2041, 193.7642,   1.0000, 170.1934,  67.4212,   6.7871,
+        332.0998,  77.4397])
+Model architecture: hdim_3072x1536x768
+Input dim: 3072, Output dim: 16
+wandb: Currently logged in as: vincenzo-civale (vincenzo-civale-universi-degli-studi-di-firenze) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.21.0
+wandb: Run data is saved locally in /home/vcivale/scTumorClassificationPipeline/wandb/run-20250707_134849-cq8mqd5k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run AdvancedMLPClassifier_hdim_3072x1536x768_2025-07-07_13-48-49
+wandb: ⭐️ View project at https://wandb.ai/vincenzo-civale-universi-degli-studi-di-firenze/scTumorClassification
+wandb: 🚀 View run at https://wandb.ai/vincenzo-civale-universi-degli-studi-di-firenze/scTumorClassification/runs/cq8mqd5k
+  0%|          | 0/121650 [00:00<?, ?it/s]  0%|          | 1/121650 [00:05<175:24:22,  5.19s/it]  0%|          | 2/121650 [00:06<105:30:30,  3.12s/it]  0%|          | 7/121650 [00:08<31:14:14,  1.08it/s]   0%|          | 14/121650 [00:08<12:16:21,  2.75it/s]  0%|          | 23/121650 [00:09<5:57:25,  5.67it/s]   0%|          | 28/121650 [00:13<12:30:12,  2.70it/s]  0%|          | 35/121650 [00:13<8:02:37,  4.20it/s]   0%|          | 40/121650 [00:15<10:00:00,  3.38it/s]  0%|          | 48/121650 [00:17<9:33:50,  3.53it/s]   0%|          | 52/121650 [00:17<7:41:40,  4.39it/s]  0%|          | 55/121650 [00:17<6:30:43,  5.19it/s]  0%|          | 60/121650 [00:20<9:10:25,  3.68it/s]  0%|          | 68/121650 [00:20<5:33:02,  6.08it/s]  0%|          | 77/121650 [00:20<3:28:58,  9.70it/s]  0%|          | 83/121650 [00:22<5:49:46,  5.79it/s]  0%|          | 87/121650 [00:24<8:37:55,  3.91it/s]  0%|          | 91/121650 [00:26<10:51:55,  3.11it/s]  0%|          | 99/121650 [00:27<6:45:00,  5.00it/s]                                                      {'loss': 2.9411, 'grad_norm': 6.032077789306641, 'learning_rate': 8.13810110974106e-06, 'epoch': 0.12}
+  0%|          | 100/121650 [00:27<6:45:00,  5.00it/s]  0%|          | 106/121650 [00:29<7:53:02,  4.28it/s]  0%|          | 110/121650 [00:29<6:26:31,  5.24it/s]  0%|          | 114/121650 [00:40<6:26:31,  5.24it/s]
